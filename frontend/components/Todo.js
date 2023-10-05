@@ -5,7 +5,7 @@ export default class Todo extends React.Component {
     const { id, name, completed } = this.props.todo
     return (
       <div>
-        {name}
+        {name} {completed && '✓'}
       </div>
     )
   }
