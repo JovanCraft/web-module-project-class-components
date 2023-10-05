@@ -58,5 +58,5 @@ In this project you will build an application that allows for todos to be added,
 
 ## Tips
 
-- [ ] Make commits often but avoid committing broken code.
-- [ ] Make sure to push code at regular intervals to back it up to the cloud.
+- [x] Make commits often but avoid committing broken code.
+- [x] Make sure to push code at regular intervals to back it up to the cloud.

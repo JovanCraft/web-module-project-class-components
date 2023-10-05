@@ -25,7 +25,7 @@ export default class TodoList extends React.Component {
         {
           filtered.map((todo) => (<Todo key={todo.id} todo={todo} toggleCompletion={toggleCompletion}/>))
         }
-        <button onClick={this.toggleShowAll}>Show All Todos</button>
+        <button onClick={this.toggleShowAll}>{this.state.showAll ? 'Hide Completed Todos' : 'Show All Todos'}</button>
       </div>
     )
   }
