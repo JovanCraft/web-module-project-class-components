@@ -9,6 +9,10 @@ export default class Form extends React.Component {
     evt.preventDefault()
     const { addTodo } = this.props
     addTodo(this.state.name)
+    this.setState({
+      ...this.state,
+      name: ''
+    })
   }
 
   onChange = evt => {
